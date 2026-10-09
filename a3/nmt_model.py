@@ -39,7 +39,7 @@ class NMT(nn.Module):
         @param hidden_size (int): Hidden Size, the size of hidden states (dimensionality)
         @param vocab (Vocab): Vocabulary object containing src and tgt languages
                               See vocab.py for documentation.
-        @param dropout_rate (float): Dropout probability, for attention
+        @param dropout_rate (float): Dropout probability, for attention ad done
         """
         super(NMT, self).__init__()
         self.model_embeddings = ModelEmbeddings(embed_size, vocab)
